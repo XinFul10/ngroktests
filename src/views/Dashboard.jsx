@@ -199,7 +199,7 @@ export default function Dashboard() {
             </tr>
           </thead>
           <tbody>
-            {(Array.isArray(books) ? books : []).map(book => (
+            {books.map(book => (
               <tr key={book.id} style={{ borderBottom: "1px solid #ddd", backgroundColor: editId === book.id ? "#e8f5e9" : "white" }}>
                 <td style={{ padding: "0.5rem", border: "1px solid #ddd" }}>
                   {editId === book.id ? (
