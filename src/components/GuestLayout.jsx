@@ -8,7 +8,7 @@ export default function GuestLayout() {
     }
     return (
         <div>
-            Guest             
+            BSIT 2-5 Group 2             
             <Outlet/>           
         </div>
     )
