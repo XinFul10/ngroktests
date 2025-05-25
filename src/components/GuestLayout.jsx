@@ -7,8 +7,7 @@ export default function GuestLayout() {
         return <Navigate to="/" />
     }
     return (
-        <div>
-            BSIT 2-5 Group 2             
+        <div>           
             <Outlet/>           
         </div>
     )
