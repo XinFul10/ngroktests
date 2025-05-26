@@ -82,11 +82,15 @@ input:focus {
   color: #3e3e3e;
   transition: all 0.3s;
   border-radius: 6px;
+  margin-left: 1rem; /* ✅ Push away from name or other elements */
+  display: inline-block; /* Ensures padding is respected */
 }
 
 .btn-logout:hover {
   background-color: rgba(90, 107, 79, 0.2);
+  padding: 0.75rem 1.5rem; /* Optional: re-declare to prevent hover shrink */
 }
+
 
 .btn:hover,
 .btn:active,
